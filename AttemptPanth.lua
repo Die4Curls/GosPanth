@@ -1,6 +1,9 @@
-
 	if myHero.charName ~= "Pantheon" then return end
+	
+	local _shadow = myHero.pos
+	
 	require "DamageLib"
+	
 	keybindings = { [ITEM_1] = HK_ITEM_1, [ITEM_2] = HK_ITEM_2, [ITEM_3] = HK_ITEM_3, [ITEM_4] = HK_ITEM_4, [ITEM_5] = HK_ITEM_5, [ITEM_6] = HK_ITEM_6}
 
 
