@@ -61,7 +61,7 @@ function Pantheon:LoadMenu()
 	self.menu = MenuElement({type = MENU, id = "Pantheon", name = "AttemptedPantheoN leftIcon="https://vignette.wikia.nocookie.net/leagueoflegends/images/9/98/Pantheon_DragonslayerSkin.jpg/revision/latest?cb=20170621200102"})
 	
 	--[[CUMbo]]
-	self.menu:MenuElement({id = "Combo", name = CUMbo"})
+	self.menu:MenuElement({id = "Combo", name = "CUMbo"})
 	self.Menu.Combo:MenuElement({id = "comboUseQ", name = "Use Q", value = true})
 	self.Menu.Combo:MenuElement({id = "comboUseW", name = "Use W", value = true})
 	self.Menu.Combo:MenuElement({id = "comboUseE", name = "Use E", value = true})
